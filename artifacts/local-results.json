@@ -1,0 +1,123 @@
+{
+  "feature_fit_seconds": 1.2981658999924548,
+  "sklearn_version": "1.8.0",
+  "results": [
+    {
+      "model": "Naive Bayes",
+      "kind": "supervised_local",
+      "test": {
+        "n": 2400,
+        "accuracy": 0.8554166666666667,
+        "macro_f1": 0.8554164407548553,
+        "confusion_matrix": [
+          [
+            1025,
+            175
+          ],
+          [
+            172,
+            1028
+          ]
+        ]
+      },
+      "pilot": {
+        "n": 24,
+        "accuracy": 0.8333333333333334,
+        "macro_f1": 0.8333333333333334,
+        "confusion_matrix": [
+          [
+            10,
+            2
+          ],
+          [
+            2,
+            10
+          ]
+        ]
+      },
+      "fit_seconds": 0.028850200003944337,
+      "test_batch_seconds": 0.20778130000689998,
+      "single_p50_ms": 1.1935999791603535,
+      "single_p95_ms": 2.308695027022622,
+      "api_cost": 0
+    },
+    {
+      "model": "Logistic Regression",
+      "kind": "supervised_local",
+      "test": {
+        "n": 2400,
+        "accuracy": 0.85125,
+        "macro_f1": 0.8510358381555149,
+        "confusion_matrix": [
+          [
+            1067,
+            133
+          ],
+          [
+            224,
+            976
+          ]
+        ]
+      },
+      "pilot": {
+        "n": 24,
+        "accuracy": 0.6666666666666666,
+        "macro_f1": 0.6571428571428571,
+        "confusion_matrix": [
+          [
+            10,
+            2
+          ],
+          [
+            6,
+            6
+          ]
+        ]
+      },
+      "fit_seconds": 0.16585570003371686,
+      "test_batch_seconds": 0.2659057999844663,
+      "single_p50_ms": 0.6734500348102301,
+      "single_p95_ms": 1.3586350221885357,
+      "api_cost": 0
+    },
+    {
+      "model": "Linear SVM",
+      "kind": "supervised_local",
+      "test": {
+        "n": 2400,
+        "accuracy": 0.8441666666666666,
+        "macro_f1": 0.8441597404329081,
+        "confusion_matrix": [
+          [
+            1021,
+            179
+          ],
+          [
+            195,
+            1005
+          ]
+        ]
+      },
+      "pilot": {
+        "n": 24,
+        "accuracy": 0.75,
+        "macro_f1": 0.7482517482517483,
+        "confusion_matrix": [
+          [
+            10,
+            2
+          ],
+          [
+            4,
+            8
+          ]
+        ]
+      },
+      "fit_seconds": 0.06679860001895577,
+      "test_batch_seconds": 0.18390429997816682,
+      "single_p50_ms": 0.6000000284984708,
+      "single_p95_ms": 1.2086799688404424,
+      "api_cost": 0
+    }
+  ]
+}

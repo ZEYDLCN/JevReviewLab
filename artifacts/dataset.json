@@ -1,0 +1,32 @@
+{
+  "source": "https://huggingface.co/datasets/fthbrmnby/turkish_product_reviews",
+  "revision": "3c8bef32a2b6cb1f70d686783edeecaec6287cbf",
+  "raw_sha256": "a5ea59cd4f78f03895291c8a7f8be30b78b2f511c71569b68aef3a4f7756ee80",
+  "raw_rows": 235165,
+  "length_filter": "20..1200 characters; no truncation",
+  "conflicting_rows_removed": 77,
+  "duplicate_rows_removed": 2084,
+  "eligible_unique_rows": 227136,
+  "selected_rows": 12000,
+  "splits": {
+    "train": 8400,
+    "validation": 1200,
+    "test": 2400,
+    "pilot": 24
+  },
+  "labels": [
+    "negative",
+    "positive"
+  ],
+  "random_seed": 42,
+  "pilot_seed": 73,
+  "license_note": "Source README states CC-BY-SA-4.0; HF metadata says unknown. Attribution and original README retained. Verify upstream before redistribution.",
+  "limitations": [
+    "Binary labels only; no neutral ground truth.",
+    "Normalized exact duplicates removed; near duplicates and product-level overlap may remain.",
+    "No product IDs supplied, so product-disjoint evaluation is unavailable.",
+    "Source labels retained, not independently human audited.",
+    "Balanced and length-filtered subset is not the natural class distribution.",
+    "Public data may appear in pretrained model training sets."
+  ]
+}
