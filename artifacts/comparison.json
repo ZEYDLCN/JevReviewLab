@@ -118,5 +118,74 @@
       "api_cost": 0
     }
   ],
-  "external_matched": []
+  "external_matched": [
+    {
+      "model": "Jev",
+      "kind": "external",
+      "n": 12,
+      "accuracy": 0.75,
+      "macro_f1": 0.7482517482517483,
+      "confusion_matrix": [
+        [
+          4,
+          2
+        ],
+        [
+          1,
+          5
+        ]
+      ]
+    },
+    {
+      "model": "Linear SVM / Jev ile aynı örnekler",
+      "kind": "local_matched",
+      "n": 12,
+      "accuracy": 0.75,
+      "macro_f1": 0.7482517482517483,
+      "confusion_matrix": [
+        [
+          5,
+          1
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "model": "Logistic Regression / Jev ile aynı örnekler",
+      "kind": "local_matched",
+      "n": 12,
+      "accuracy": 0.5833333333333334,
+      "macro_f1": 0.5555555555555556,
+      "confusion_matrix": [
+        [
+          5,
+          1
+        ],
+        [
+          4,
+          2
+        ]
+      ]
+    },
+    {
+      "model": "Naive Bayes / Jev ile aynı örnekler",
+      "kind": "local_matched",
+      "n": 12,
+      "accuracy": 0.9166666666666666,
+      "macro_f1": 0.916083916083916,
+      "confusion_matrix": [
+        [
+          5,
+          1
+        ],
+        [
+          0,
+          6
+        ]
+      ]
+    }
+  ]
 }

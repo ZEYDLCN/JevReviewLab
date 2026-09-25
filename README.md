@@ -67,7 +67,9 @@ $env:JEV_AI_API_KEY = [System.Net.NetworkCredential]::new('', $jevSecret).Passwo
 Remove-Item Env:JEV_AI_API_KEY
 ```
 
-İkinci paket otomatik çalışmaz. Gerçek çağrı yapıldığında `artifacts/jev-response-1.json` dosyasındaki bakiye ve ücret kontrol edilmelidir. Proje hazırlanırken hiçbir gerçek Jev çağrısı yapılmadı.
+İkinci paket otomatik çalışmaz. Gerçek çağrı yapıldığında `artifacts/jev-response-1.json` dosyasındaki bakiye ve ücret kontrol edilmelidir. Ham yanıtlar ve hesap bakiyesi Git'e dahil edilmez.
+
+İlk Jev paketi 25 Eylül 2026 tarihinde çalıştırıldı: 12 yorumda 9 doğru tahmin (%75 doğruluk), macro-F1 0,7483. Aynı 12 yorumda Naive Bayes %91,67, Linear SVM %75 ve Logistic Regression %58,33 doğruluk elde etti. Bu küçük pilot kesin model üstünlüğü göstermez; ikinci paket henüz çalıştırılmadı.
 
 ## Diğer dil modelleriyle karşılaştırma
 
